@@ -1,0 +1,28 @@
+{
+	"name": "@alperkonuralp/gracefully-shutdown",
+	"version": "1.0.0",
+	"description": "This tool provides a simple way to run the codes you want during the closing of the NodeJS application.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.js",
+	"scripts": {
+		"prebuild": "eslint . --ext .ts",
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"files": [
+		"/dist"
+	],
+	"repository": {
+		"type": "Github",
+		"url": "https://github.com/alperkonuralp/nodejs-gracefully-shutdown"
+	},
+	"author": "Alper Konuralp",
+	"license": "ISC",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.20.0",
+		"@typescript-eslint/parser": "^5.20.0",
+    "@types/node": "^17.0.25",
+		"eslint": "^8.14.0",
+		"typescript": "^4.6.3"
+	}
+}
