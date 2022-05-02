@@ -16,9 +16,9 @@ import { GracefullyShutdown } from "@alperkonuralp/gracefully-shutdown";
 GracefullyShutdown(name: string, onClose: () => void | Promise<void>)
 ```
 ### Parameters
-$name:$ The name for logging.
+*name:* The name for logging.
 
-$onClose:$ The function delegate to run on shutdown.
+*onClose:* The function delegate to run on shutdown.
 
 
 ### Example
@@ -60,9 +60,9 @@ export function initLogger(infoLogger?: LogFunction, errorLogger?: LogFunction);
 
 ### Parameters
 
-$infoLogger:$ The logger function for informations. Default value is `console.log`.
+*infoLogger:* The logger function for informations. Default value is `console.log`.
 
-$errorLogger:$ The logger function for errors. Default value is `console.error`.
+*errorLogger:* The logger function for errors. Default value is `console.error`.
 
 
 ### Example (winston)
